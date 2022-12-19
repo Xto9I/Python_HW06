@@ -116,6 +116,7 @@ def main(path):
        
 
 if __name__ == "__main__":
-    path = sys.argv[1]  
+    path = sys.argv[1] # Запускаємо через командну строку. Передаємо шлях до папки, в якій треба відсортувати файли
+    #path = r"/Documents/user/trash"
     fold = Path(path)
     main(path)
